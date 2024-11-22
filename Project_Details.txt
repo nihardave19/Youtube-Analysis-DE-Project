@@ -1,0 +1,22 @@
+YouTube Data Analysis Pipeline
+
+This project consists of comprehensive end-to-end data pipeline for analyzing YouTube data. This pipeline was developed using a combination of AWS services, Python, and PySpark to process, transform, and visualize large datasets.  
+
+Key Technologies Used:
+
+◆ Kaggle- YouTube data from Kaggle was utilized as the foundation for the analysis.  
+◆ AWS S3 - Amazon S3 was leveraged for secure and scalable storage of raw data.  
+◆ AWS IAM - IAM roles were employed to manage secure access and permissions across services.  
+◆ AWS Athena - Athena was utilized for efficient querying of large datasets stored in S3 using SQL-like syntax.  
+◆ AWS Glue - ETL jobs were designed and run with Glue to transform and clean the data.  
+◆ AWS Lambda - Serverless compute operations were orchestrated using Lambda functions to streamline the workflow.  
+◆ Python & PySpark - Python with PySpark was applied for data processing, transformation, and analysis at scale.  
+◆ AWS QuickSight - Processed data was visualized, transforming it into actionable insights using QuickSight.  
+
+Project Goals:
+- Insights such as view counts, engagement rates, and trending topics were extracted from YouTube data.  
+- Data processing and analysis were automated within a scalable architecture.  
+- Key trends and metrics were visualized to facilitate data-driven decision-making.  
+
+Outcome : 
+By combining these AWS tools and leveraging the power of PySpark, a robust pipeline capable of handling large datasets efficiently was created. Dashboards in AWS QuickSight were developed to provide real-time insights into YouTube trends, enabling content optimization and audience engagement strategies.  
